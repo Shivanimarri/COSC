@@ -1,0 +1,92 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f6f6;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 360px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin: auto;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .content {
+      padding: 16px;
+    }
+
+    .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f1111;
+  margin-bottom: 8px;
+  word-spacing: 1px;
+  line-height: 1.4;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+    .rating {
+      color: #d18819;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .rating span {
+      margin-left: 4px;
+      color: #007185;
+      font-weight: normal;
+    }
+
+    .info {
+      color: #565959;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .delivery, .shipping {
+  color: #0f1111;         /* Amazon-style black */
+  font-size: 14px;
+  font-weight: 550;
+  font-family: Arial, sans-serif;
+  margin-bottom: 4px;
+}
+
+
+    .add-to-cart {
+      background-color: #ffd814;
+      color: black;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 999px;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+    }
+
+    .add-to-cart:hover {
+      background-color: #f7ca00;
+    }
+
+    .price sup {
+  font-weight: normal;
+  font-size: 14px;
+  vertical-align: super;
+}
